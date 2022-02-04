@@ -1,0 +1,12 @@
+1643955079104	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezr4Cic"
+console.error: Enterprise Policies: 
+  Error parsing JSON file: SyntaxError: JSON.parse: expected double-quoted property name at line 16 column 5 of the JSON data
+1643955081193	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezr4Cic/search.json.mozlz4", (void 0)))
+1643955090418	Marionette	INFO	Listening on port 33513
+1643955090516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.flightradar24.com/static/bundle/main.b46c534b0c01f7298d67.bundle.js, line 532: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1643955159700	Marionette	INFO	Stopped listening on port 33513
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
